@@ -17,7 +17,7 @@ It provides following features:
 * JDK with v8
 
 ### Usage:
-s
+
 * To change or add more data, you simply modify the excel file "data.xlsx" defined under the folder "files"
 * To change the browser, you simply modify the parameter "browserName" defined in testNG file "testng.xml"
 * The variable "url" is defined under the test resources folder in specific file "config.properties"
@@ -31,6 +31,6 @@ The definition of any variable must be defined with this format 'key=value'
 mvn clean test -DtestngFile=testng.xml : goal used to execute testcases and generate testNG reports ('/test-output/index.html')
 
 ### Note
-There is  a manual interaction to bypass reKAPTCHA 
+There is a manual interaction to bypass the google reKAPTCHA 
 
  
