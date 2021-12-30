@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58548" started-at="2021-12-27T01:28:55 WAT" finished-at="2021-12-27T01:29:53 WAT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58548" started-at="2021-12-27T01:28:55 WAT" finished-at="2021-12-27T01:29:53 WAT">
+      <class name="Test.GeneralTest">
+        <test-method status="PASS" signature="SetUP(java.lang.String)[pri:0, instance:Test.GeneralTest@10163d6]" name="SetUP" is-config="true" duration-ms="5606" started-at="2021-12-27T01:28:55 WAT" finished-at="2021-12-27T01:29:00 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="OpenApplication()[pri:1, instance:Test.GeneralTest@10163d6]" name="OpenApplication" duration-ms="43508" started-at="2021-12-27T01:29:00 WAT" finished-at="2021-12-27T01:29:44 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="AcceptCookies()[pri:2, instance:Test.GeneralTest@10163d6]" name="AcceptCookies" duration-ms="2680" started-at="2021-12-27T01:29:44 WAT" finished-at="2021-12-27T01:29:47 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcceptCookies -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:Test.GeneralTest@10163d6]" name="login" duration-ms="3826" started-at="2021-12-27T01:29:47 WAT" data-provider="testdata1" finished-at="2021-12-27T01:29:51 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testacial@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bonjour@2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="ProfilInformations(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Test.GeneralTest@10163d6]" name="ProfilInformations" duration-ms="970" started-at="2021-12-27T01:29:51 WAT" data-provider="testdata2" finished-at="2021-12-27T01:29:52 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testacial@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Acial]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[53428262]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfilInformations -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Test.GeneralTest@10163d6]" name="TearDown" is-config="true" duration-ms="1235" started-at="2021-12-27T01:29:52 WAT" finished-at="2021-12-27T01:29:53 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test.GeneralTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
