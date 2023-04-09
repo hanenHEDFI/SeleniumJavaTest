@@ -30,7 +30,6 @@ The definition of any variable must be defined with this format 'key=value'
 * To execute this project:
 mvn clean test -DtestngFile=testng.xml : goal used to execute testcases and generate testNG reports ('/test-output/index.html')
 
-### Note
-There is a manual interaction to bypass the google reKAPTCHA 
+
 
  
