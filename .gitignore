@@ -1,8 +1,8 @@
-/test-classes/
-/test-output/
-/target/
-/Logs/
-/.project/
-/.settings/
+
+test-output/
+target/
+Logs/
+.project/
+.settings/
 
 
